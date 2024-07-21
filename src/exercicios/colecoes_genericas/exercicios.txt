@@ -1,0 +1,62 @@
+## 10 Exercícios para Praticar Collections em Java
+
+**Nível Básico:**
+
+1. **Manipulando Listas:**
+   - Crie uma lista de números inteiros.
+   - Adicione 5 números à lista.
+   - Remova o terceiro elemento da lista.
+   - Ordene a lista em ordem crescente.
+   - Imprima o segundo e o último elemento da lista.
+
+2. **Trabalhando com Conjuntos (Sets):**
+   - Crie um conjunto de nomes de cidades.
+   - Adicione algumas cidades ao conjunto (incluindo repetições).
+   - Verifique se uma determinada cidade está no conjunto.
+   - Imprima todas as cidades do conjunto em ordem alfabética.
+
+3. **Explorando Mapas (Maps):**
+   - Crie um mapa que associe nomes de países a suas respectivas capitais.
+   - Adicione 5 pares de país-capital ao mapa.
+   - Imprima a capital de um país específico.
+   - Remova um par do mapa.
+   - Imprima todos os países e suas capitais.
+
+**Nível Intermediário:**
+
+4. **Ordenação Personalizada:**
+   - Crie uma classe `Produto` com atributos nome e preço.
+   - Crie uma lista de produtos.
+   - Ordene a lista de produtos por preço (do menor para o maior).
+   - Ordene a lista de produtos por nome (em ordem alfabética).
+
+5. **Filtragem e Transformação:**
+   - Crie uma lista de números.
+   - Use streams para filtrar os números pares e armazená-los em uma nova lista.
+   - Use streams para transformar os números da lista original, multiplicando cada um por 2.
+
+**Nível Avançado:**
+
+6. **Frequência de Elementos:**
+   - Dada uma lista de palavras, conte a frequência de cada palavra.
+   - Imprima as palavras e suas respectivas frequências.
+
+7. **Coleções Aninhadas:**
+   - Crie um mapa que associe nomes de pessoas a listas de seus hobbies.
+   - Adicione algumas pessoas e seus hobbies ao mapa.
+   - Imprima os hobbies de uma pessoa específica.
+
+8. **Performance:**
+   - Compare o desempenho de diferentes implementações de listas (ArrayList, LinkedList) para adicionar, remover e acessar elementos em diferentes posições.
+
+9. **Queue e Stack:**
+   - Use uma fila (Queue) para simular uma fila de espera em um banco.
+   - Use uma pilha (Stack) para implementar a funcionalidade de desfazer em um editor de texto.
+
+10. **Coleções Concorrentes:**
+   - Use `ConcurrentHashMap` para armazenar dados que serão acessados por múltiplas threads.
+   - Implemente um produtor-consumidor usando `BlockingQueue`.
+
+**Dica:** Use a documentação oficial do Java para se aprofundar em cada tipo de Collection e seus métodos: [https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html)
+
+Lembre-se que a prática leva à perfeição! Quanto mais você experimentar com diferentes cenários e desafios, melhor você compreenderá as nuances das Collections em Java.
