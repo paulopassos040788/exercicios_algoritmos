@@ -1,13 +1,11 @@
 package exercicios.colecoes_genericas;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class TrabalhandoConjuntos {
 
     private final static String[] cidades = {"Sao Paulo", "Sao Paulo", "Sao Paulo", "Goiania", "Curitiba", "Salvador", "Trindade"};
-    private final static Set<String> cidadesSet = new HashSet<>();
+    private final static Set<String> cidadesSet = new TreeSet<>();
 
     public static void main(String[] args) {
 
